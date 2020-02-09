@@ -1,0 +1,23 @@
+{
+  "name": "val_portfolio",
+  "version": "1.0.0",
+  "description": "web portfolio for val",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo Error no test specified",
+    "start": "lite-server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aponsero/Web-page-Val.git"
+  },
+  "author": "alise ponsero",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/aponsero/Web-page-Val/issues"
+  },
+  "homepage": "https://github.com/aponsero/Web-page-Val#readme",
+  "devDependencies": {
+    "lite-server": "^2.5.4"
+  }
+}
