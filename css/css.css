@@ -4,8 +4,15 @@ html,body {
 
 body{
   padding-top: 2rem;
+  background-color: #cccac6;
 }
 
+/* navbar */
+.navcolor{
+  background-color: #cccac6;
+}
+
+/* global page layout */
 .first {
   height:100vh;
   min-height:400px;
@@ -22,18 +29,9 @@ body{
   background-position: top center;
 }
 
-.affix {
-  background-color: #B0C4DE;
-  -webkit-transition:padding 0.2s ease-out;
-  -moz-transition:padding 0.2s ease-out;  
-  -o-transition:padding 0.2s ease-out;         
-  transition:padding 0.2s ease-out;
-}
-
-/* global page layout */
 #container-main {
-    padding-top: 70px;
-    padding-bottom: 30px;
+    padding-top: 40px;
+    padding-bottom: 40px;
 }
 
 /* hover effects on thumbnails */
