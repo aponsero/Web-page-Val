@@ -2,8 +2,8 @@ html,body {
   height:100%;
 }
 
-body {
-    position: relative; 
+body{
+  padding-top: 2rem;
 }
 
 .first {
@@ -30,33 +30,11 @@ body {
   transition:padding 0.2s ease-out;
 }
 
-
-/* navbar style on top */
-@media (min-width:768px) {
-    .affix-top {
-      background-color:transparent;
-      border-color:transparent;
-      padding: 15px;
-      -webkit-transition:all 0.5s ease;
-      -moz-transition:all 0.5s ease; 
-      -o-transition:all 0.5s ease;         
-      transition:all 0.5s ease;  
-    }
-}
-
-nav .navbar-nav .nav-link,
-nav .navbar-brand {
-   color: #000;
-}
-
-
 /* global page layout */
 #container-main {
     padding-top: 70px;
     padding-bottom: 30px;
 }
-
-
 
 /* hover effects on thumbnails */
 .hovereffect {
@@ -142,53 +120,13 @@ nav .navbar-brand {
 
 
 /* gallery */
-.gallery-title
-{
-    font-size: 36px;
-    color: #42B32F;
-    text-align: center;
-    font-weight: 500;
-    margin-bottom: 70px;
+.gallery{
+  padding-top: 4rem;
 }
-.gallery-title:after {
-    content: "";
-    position: absolute;
-    width: 7.5%;
-    left: 46.5%;
-    height: 45px;
-    border-bottom: 1px solid #5e5e5e;
-}
-.filter-button
-{
-    font-size: 18px;
-    border: 1px solid #42B32F;
-    border-radius: 5px;
-    text-align: center;
-    color: #42B32F;
-    margin-bottom: 30px;
-
-}
-.filter-button:hover
-{
-    font-size: 18px;
-    border: 1px solid #42B32F;
-    border-radius: 5px;
-    text-align: center;
-    color: #ffffff;
-    background-color: #42B32F;
-
-}
-.btn-default:active .filter-button:active
-{
-    background-color: #42B32F;
-    color: white;
-}
-
 .port-image
 {
     width: 100%;
 }
-
 .gallery_product
 {
     margin-bottom: 30px;
